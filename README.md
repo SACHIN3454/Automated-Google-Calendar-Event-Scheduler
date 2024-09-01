@@ -1,3 +1,5 @@
+markdown
+Copy code
 # Automated Google Calendar Event Scheduler
 
 A Python script that automates the creation of events in Google Calendar using the Google Calendar API. This tool allows users to set up reminders for tasks with specified start and end times, managing authentication and API requests efficiently.
@@ -35,6 +37,7 @@ Usage
 Run the script:
 
 bash
+Copy code
 python remainder.py
 Authenticate with Google:
 
@@ -48,6 +51,7 @@ Example
 Here’s an example of how to modify the remainder() function to create a custom event:
 
 python
+Copy code
 if __name__ == "__main__":
     date_str = dt.datetime.now().strftime("%Y-%m-%d")
     start_time_str = "9:00 AM"
@@ -72,10 +76,6 @@ Include more customizable event features like attendees and reminders.
 Author
 Sachin S.
 
+Visit my GitHub profile: SACHIN3454
 
 For any issues or suggestions, feel free to contact me or create a new issue on the GitHub repository.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-
